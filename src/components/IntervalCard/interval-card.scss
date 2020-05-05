@@ -3,4 +3,39 @@
 
 .interval-card {
     @extend %card;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    &:first-child {
+        margin-top: 10vh;
+    }
+
+    .interval-card-title {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .input-row {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        margin: 0 0 1.5rem 2rem;
+
+        .input-row-title {
+            font-size: 1.6rem;
+        }
+
+        &.name {
+            margin-top: 2rem;
+        }
+
+        &.rest {
+            margin-bottom: 2rem;
+        }
+    }
 }
