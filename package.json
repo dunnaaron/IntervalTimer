@@ -6,8 +6,15 @@
   "repository": "git@github.com:dunnaaron/IntervalTimer.git",
   "author": "Aaron Dunn",
   "license": "MIT",
+  "scripts": {
+    "build-css": "sass --watch ./styles/sass/style.scss ./styles/css/style.css",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
   "dependencies": {
     "parcel-bundler": "^1.12.4",
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.5"
   }
 }
