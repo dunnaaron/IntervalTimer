@@ -1,8 +1,9 @@
 import React from 'react'
+import IntervalCard from './components/IntervalCard/IntervalCard'
 
 const App = () => {
     return (
-        <div>Hello World</div>
+        <IntervalCard />
     )
 }
 

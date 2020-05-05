@@ -1,0 +1,6 @@
+@use '../../../styles/sass/colors';
+@use '../../../styles/sass/common';
+
+.interval-card {
+    @extend %card;
+}
