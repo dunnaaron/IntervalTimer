@@ -1,0 +1,13 @@
+{
+  "name": "IntervalTimer",
+  "version": "1.0.0",
+  "description": "A custom interval timer that has everything I need, and nothing I don't.",
+  "main": "index.js",
+  "repository": "git@github.com:dunnaaron/IntervalTimer.git",
+  "author": "Aaron Dunn",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1"
+  }
+}
